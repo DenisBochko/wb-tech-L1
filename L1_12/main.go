@@ -20,7 +20,7 @@ func uniqueSet(initialSet []string) []string {
 }
 
 func main() {
-	words := []string{"cat", "cat", "dog", "cat", "tree"}
+	strs := []string{"cat", "cat", "dog", "cat", "tree"}
 
-	fmt.Println(uniqueSet(words))
+	fmt.Println(uniqueSet(strs))
 }
